@@ -1,0 +1,6 @@
+{
+    "name": "Python",
+    "image": "mcr.microsoft.com/devcontainers/python:latest",
+    "postCreateCommand": "./IDBv2.sh && pip install influxdb-client",
+    "forwardPorts": [8086]
+}
